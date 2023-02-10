@@ -1,7 +1,7 @@
 # bot-searcher-db
 je vous remet mon bot qui est capable de chercher dans des db pour vous les envoyer en message sur discord que j'avais posté en juilliet et supprimé par github ^^
 
-                  
+PS : crée un fichier database puis debrouiller vous avec le main2
   
   <div align="center">
   <h1>BOT DB SEARCHER</h1><BR>
