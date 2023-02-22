@@ -15,7 +15,9 @@ from os import system
 import pytz
 
 from discord.ext.commands import has_permissions, CheckFailure, CommandNotFound
-bot = commands.bot(command_prefix='?', description="0xqlb | SearchEngine")
+intents = discord.Intents.all()
+
+bot = commands.Bot(command_prefix='.',intents=intents)
 
 bot.remove_command("help")
 
@@ -353,4 +355,4 @@ async def on_command_error(ctx, error):
         pass
 
 
-bot.run('MTA3MzMyNzAzNDI3ODg3MTA4MQ.G94VEo.ABpiPKYu19Nv2vneRTPqZmIBSda6N4bxMGjzlk')
+bot.run('')
